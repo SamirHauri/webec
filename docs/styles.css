@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/source/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#achievementForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#achievementInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 4px 4px 0 0; /* Rounded corners on the top */
+    color: #333;
+    font-size: 1.1em;
+}
+
+li {
+    margin: 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-top: none; /* Remove the top border to connect with the date title */
+    border-radius: 0 0 4px 4px; /* Rounded corners on the bottom */
+}
+
+.tagButton {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.tagButton.selected {
+    background-color: #007BFF;
+    color: white;
+}
+
+.mpm h3, .mpm li {
+    background-color: #FFD700;
+}
+
+.ivis h3, .ivis li {
+    background-color: #8A2BE2;
+}
+
+.sdent h3, .sdent li {
+    background-color: #20B2AA;
+}
+
+#achievementForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    margin: 20px auto;
+    background-color: rgba(60, 150, 64, 0.29);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#tagButtons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tagButton {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.tagButton:hover {
+    background-color: #e0e0e0;
+}
+
+.tagButton.selected {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Add some styling for list */
+#achievementsList {
+    width: 535px;
+    margin: 20px auto;
+    list-style: none;
+    padding: 0;
+}
+
+#datePicker {
+    margin-right: 10px;
+}
+
+
+
+
