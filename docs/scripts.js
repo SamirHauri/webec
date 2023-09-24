@@ -34,5 +34,7 @@ document.getElementById('achievementForm').addEventListener('submit', function(e
         achievementsList.appendChild(entryDiv);
 
         achievementInput.value = "";
+    } else {
+        window.alert("invalid input");
     }
 });
